@@ -9475,7 +9475,7 @@ html {
     height: 100%
 }
 .text-white-75 {
-    color: rgba(255, 255, 255, .75)
+    color: white;
 }
 hr.divider {
     max-width: 3.25rem;
@@ -9502,15 +9502,15 @@ hr.light {
 #mainNav {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
     background-color: #fff;
-    transition: background-color .2s ease
+    /* transition: background-color .2s ease */
 }
 #mainNav .navbar-brand {
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
-    color: #212529
+    color: black;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-    color: #6c757d;
+    color: black;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     font-size: .9rem;
@@ -9518,10 +9518,10 @@ hr.light {
 }
 #mainNav .navbar-nav .nav-item .nav-link:active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a
+    color: white;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #f4623a!important
+    color: #f4623a!important;
 }
 @media (min-width:992px) {
     #mainNav {
@@ -9530,7 +9530,7 @@ hr.light {
     }
     
     #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, .7)
+        color: rgba(255, 255, 255, 1)
     }
     
     #mainNav .navbar-brand:hover {
@@ -9538,7 +9538,7 @@ hr.light {
     }
     
     #mainNav .navbar-nav .nav-item .nav-link {
-        color: rgba(255, 255, 255, .7);
+        color: rgba(255, 255, 255, 1);
         padding: 0 1rem
     }
     
@@ -9574,7 +9574,7 @@ hr.light {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
-    background-color: #1E90FF;
+    background-color: yellowgreen;
     /* background: linear-gradient(to bottom, rgba(0, 0, 255, 0.3) 0, rgba(0, 0, 255, 0.1) 100%), url(../img/bg-masthead.jpg); */
     /* background-position: center;
     background-repeat: no-repeat;
