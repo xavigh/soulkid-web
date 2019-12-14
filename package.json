@@ -33,7 +33,11 @@
         "bootstrap": "4.3.1",
         "jquery": "3.4.1",
         "jquery.easing": "^1.4.1",
-        "magnific-popup": "^1.1.0"
+        "magnific-popup": "^1.1.0",
+        "node-sass": "^4.13.0"
+    },
+    "scripts": {
+      "scss": "node-sass --watch scss -o css"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",

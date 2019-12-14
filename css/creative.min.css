@@ -5833,7 +5833,7 @@ a.close.disabled {
     vertical-align: text-top!important
 }
 .bg-primary {
-    background-color: yellowgreen !important
+    background-color: #ffffff !important
 }
 a.bg-primary:focus,
 a.bg-primary:hover,
@@ -9518,7 +9518,7 @@ hr.light {
 }
 #mainNav .navbar-nav .nav-item .nav-link:active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: white;
+    color: black;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
     color: #f4623a!important;
@@ -9526,24 +9526,24 @@ hr.light {
 @media (min-width:992px) {
     #mainNav {
         box-shadow: none;
-        background-color: transparent
+        background-color: transparent;
     }
     
     #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, 1)
+        color: black;
     }
     
     #mainNav .navbar-brand:hover {
-        color: #fff
+        color: blue;
     }
     
     #mainNav .navbar-nav .nav-item .nav-link {
-        color: rgba(255, 255, 255, 1);
+        color: black;
         padding: 0 1rem
     }
     
     #mainNav .navbar-nav .nav-item .nav-link:hover {
-        color: #fff
+        color: blue;
     }
     
     #mainNav .navbar-nav .nav-item:last-child .nav-link {
@@ -9552,43 +9552,38 @@ hr.light {
     
     #mainNav.navbar-scrolled {
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
-        background-color: #fff
+        background-color: #fff;
     }
     
     #mainNav.navbar-scrolled .navbar-brand {
-        color: #212529
+        color: #212529;
     }
     
     #mainNav.navbar-scrolled .navbar-brand:hover {
-        color: #f4623a
+        color: black;
     }
     
     #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-        color: #212529
+        color: #212529;
     }
     
     #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-        color: #f4623a
+        color: #f4623a;
     }
 }
 header.masthead {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 72px);
-    background-color: yellowgreen;
-    /* background: linear-gradient(to bottom, rgba(0, 0, 255, 0.3) 0, rgba(0, 0, 255, 0.1) 100%), url(../img/bg-masthead.jpg); */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #ffffff;
 }
 header.masthead h1 {
-    font-size: 2.25rem
+    font-size: 2.25rem;
 }
 @media (min-width:992px) {
     header.masthead {
-        height: 100vh;
-        min-height: 40rem;
-        padding-top: 72px;
+        height: 50vh;
+        min-height: 10rem;
+        padding-top: 20rem;
         padding-bottom: 0
     }
     
