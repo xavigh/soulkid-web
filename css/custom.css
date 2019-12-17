@@ -12,6 +12,11 @@
     height: 400px;
 }
 
+.img-border {
+    border: 2px solid black;
+    width: 90%;
+}
+
 
 /** social icons **/
 
